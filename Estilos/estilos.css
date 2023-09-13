@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Comic Neue', cursive;
+}
+
+header {
+    text-align: center;
+    border: solid 2px black;
+}
+
+header img {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+    border-bottom: none;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+header ul {
+    margin-right: 20px;
+    background-color: #ff6b81;
+    padding: 10px 10% 10px 10%;
+    border-radius: 3px;
+}
+
+
+
+
+/*VISTA 1*/
+#vista1 {
+    display: flex;
+    border: solid 2px black;
+}
+
+#vista1 article {
+    border-right: solid 2px black;
+}
+
+#vista1 article:first-child {
+    padding: 20px 5% 20px 5%;
+}
+
+#vista1 article:last-child {
+    padding: 20px 5% 20px 5%;
+    font-size: 20px;
+}
+
+#vista1 p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#vista1 hr {
+    width: 30%;
+    color: black;
+    border: 1px solid #000;
+}
+
+#vista1 article:last-child p {
+    width: 82%;
+}
+
+
+
+
+/*VISTA 2*/
+#vista2 {
+    display: flex;
+    border: solid 2px black;
+}
+
+#vista2 article {
+    background-color: #70a1ff;
+    padding: 20px 5% 20px 5%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#vista2 p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#vista2 h1 {
+    padding-bottom: 28px;
+}
+
+#vista2 hr {
+    margin: 0 auto;
+    width: 30%;
+    color: bisque;
+    border: 1px solid #ffffff;
+}
+
+
+
+
+
+/*VISTA 3*/
+#vista3 h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#vista3 article{
+    padding: 10px 5% 10px 5%;
+    text-align: center;
+    background-color: #f0932b;
+    margin: 0% 3% 0% 3%;
+    width: 30%;
+    border: 3px solid #22a6b3;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+#vista3 div{
+    display: flex;
+    justify-content: space-around;
+}
+#vista3 article p{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 5% 5px 5%;
+}
+#vista3 button{
+    color: #f0932b;
+    border-bottom: solid 2px #000;
+    width: 70%;
+    font-size: 20px;
+}
+#vista3 {
+    padding-bottom: 20px;
+    border: solid 2px #000;
+}
